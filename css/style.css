@@ -11677,3 +11677,22 @@ figure.highlight.foldable div.level-left {
     padding: 1.5rem 1rem;
   }
 }
+@media screen and (min-width: 769px) {
+  .column.is-4,
+  .column.is-4-tablet {
+    flex: none;
+    width: 30%;
+  }
+  .column.is-8,
+  .column.is-8-tablet {
+    flex: none;
+    width: 70%;
+  }
+}
+.navbar-item.navbar-logo {
+  font-size: 20px;
+}
+.widget {
+  border-radius: 20px;
+  background-color: rgba(255,255,255,0.411);
+}
